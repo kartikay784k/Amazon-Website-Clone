@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 50px;
+    width: 115px;
+    margin-left: 10px;
+}
+.navlogo{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/136/319/small/amazon-logo-amazon-icon-free-free-vector.jpg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid aqua;
+}
+/**box2**/
+.address{
+    font-size:0.7rem;
+    color: #cccccc;
+    margin-left: 10px;
+}
+.in{
+    font-size:1rem;
+    display: flex;
+}
+.box2{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}  
+/**box3**/
+.nav-search{
+    display: flex;
+    height: 30px;
+    width: 600px;
+    justify-content: space-evenly;
+    background-color: #febd66;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.select{
+    border-radius: 3px;
+    text-align: center; 
+    background-color:#f3f3f3;
+    border: none;
+}
+.input1{
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.Sch{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/**box4**/
+.fnt{
+    font-size: 1rem;
+    background-color: #0f1111;
+    color: white;
+    border-color: #0f1111;
+}
+span{
+    font-size: 0.65rem;
+}
+
+.online{
+    font-size: 0.6rem;
+}
+.online i {
+    font-size: 1.6rem;
+}
+.flag{
+    background-color: #0f1111;
+    border-color: #0f1111;
+    color: white;
+}
+/**panel**/
+.panel{
+    height: 45px;
+    background-color: #3a3d45;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.fre{
+    background-color: #3a3d45;
+    border-color: #3a3d45;
+    color: white;
+}
+.alf{
+    font-size: 1rem;
+}
+.diy{
+    font-size: 1.5rem;
+    color: gold;
+}
+/**end header**/
+.imge{
+    background-image: url("amz.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.brd{
+    height: 40px;
+    background-color: white;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.brd a{
+    color: #007185;
+}
+.imh{
+    background-image: url("amz2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position:relative;
+    bottom: 40px;
+}
+/**end**/
+.bck{
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kar{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+.pannel{
+    background-color: #343F4C;
+    height: 300px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel a{
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #D3D3D3;
+}
+p1{
+    font-size: 2rem;
+    
+}
+.p2{
+    position: relative;
+    bottom: 69px;
+}
+.p3{
+    position: relative;
+    bottom: 60px;
+}
+.p4{
+    position: relative;
+    bottom: 33px;
+}
+hr{
+    border-color:#D3D3D3;
+    border-width: 3px;
+    position: relative;
+    bottom: 39px;
+}
+.den{
+    height: 90px;
+    background-color: #343F4C;
+    position: relative;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.den1{
+    background-color: #343F4C;
+    height: 25px;
+    color: white;
+    width: 90px;
+}
+.den2{
+    background-color: #343F4C;
+    height: 25px;
+    color: white;
+    width: 90px;
+    position: relative;
+    left: 10px;
+}
+/**last part**/
+.last{
+    height: 80px;
+    display: flex;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    bottom: 41px;
+}
+.wrd{
+    display: block;
+    font-size: 0.5rem;
+    color: #D3D3D3;
+    margin-top: 4px;
+}
+.wrd:hover{
+    text-decoration: underline;
+}
+.word:hover{
+    text-decoration: underline;
+}
+.word{
+    font-size: 0.7rem;
+    margin-top: 2px;
+}
+.poetry{
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    position: relative;
+    bottom: 41px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.poet{
+    font-size: 0.7rem;
+    color: #D3D3D3;
+}
+.poe{
+    padding-top: 11px;
+}
+
